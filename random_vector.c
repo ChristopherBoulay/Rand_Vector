@@ -5,12 +5,8 @@
 #define SIZE 10
 #define RANGE 10
 
-/* main subroutine */
 int main(int argc, char *argv[]) 
 {
-	printf("Starting random vector test...\n");
-	printf("Maximum random integer is %i.\n", RAND_MAX);
-	
 	/* create vector */
 	int *random_vector;
 	random_vector = createRandomVector(SIZE, RANGE);

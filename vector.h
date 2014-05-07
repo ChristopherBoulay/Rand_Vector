@@ -5,7 +5,8 @@ int *createRandomVector(int size, int range)
 {
 	printf("createRandomVector() called...\n");
 
-	int *output = malloc(sizeof(int[size]));
+	/* allocate space for new vector */
+	int *output = (int *) malloc(sizeof(int[size]));
 	for (int i = 0; i < size; i++)
 		output[i] = rand() % range;/**/
 	
