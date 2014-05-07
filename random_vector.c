@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include "vector.h"
 
-#define SIZE 30
+#define SIZE 10
 #define RANGE 10
 
 /* main subroutine */
@@ -18,6 +18,5 @@ int main(int argc, char *argv[])
 	/* step through created vector, print to stdout */
 	stepThroughVector(random_vector, SIZE);
 	
-	/* exit main() */
 	return 0;
 }

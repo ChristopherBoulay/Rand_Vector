@@ -1,8 +1,4 @@
-/* vector.h */
-/*
-purpose: store all the functions used for the random vector test 
-questions/comments --> Chris Boulay (christopherboulay@gmail.com) 
-*/
+#ifndef VECTOR_H
 
 /* create vector of random positive integers of length n */
 int *createRandomVector(int size, int range)
@@ -23,3 +19,5 @@ void stepThroughVector(int *vector, int size)
 	for (int i = 0; i < size; i++)
 		printf("%i\n", vector[i]);
 }
+
+#endif
